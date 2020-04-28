@@ -1,0 +1,503 @@
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+
+
+
+html{
+max-width: 1600px;
+	margin:0 auto;
+}
+
+/*Header*/
+
+.menu{
+background-image: url(../img/Header_background.png);
+height: 800px;
+text-align: center;
+}
+
+
+.menu a{
+	text-decoration: none;
+	color: black;
+	
+}
+.menu  li{
+	text-transform:uppercase ;
+	font-family: 'Lato', sans-serif;
+	font-size: 13px;
+	margin: 70px 60px;
+	font-weight: 600;
+	color: #4d4959;
+
+
+
+}
+
+#mage{
+
+margin-top: 20px;
+}
+
+.menu ul{
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+
+.header2{
+	width: 1599px;
+	height:469px; 
+	background: #f7f7f7;
+	text-align: center;
+}
+
+.imm img{
+text-align: center;
+
+margin-top: 115px;
+margin-bottom: 40px;
+}
+
+.imm h1{
+	font-size: 18px;
+	font-weight: 700;
+	letter-spacing: 0.2em;
+	text-transform: uppercase;
+	font-family: Lato;
+	margin-bottom: 30px;
+	color: #353738;
+}
+
+
+.imm p{
+line-height: 34px;
+font-weight: 400;
+color: #848789;
+font-size: 18px;
+max-width: 1079px;
+margin: 0 auto;
+margin-bottom: 150px;
+}
+
+/*Header(ОКончания)*/
+
+
+/*Main 1*/
+.main1 {
+	width:1600px;
+	height: 600px;
+	display: flex;
+}
+.potclass1 {
+	width:1067px;
+	height: 600px;
+
+}
+.potclass2 {
+width: 530px;
+height: 600px;
+}
+
+
+.imgefor1 {
+	width:530px;
+	height:400px;
+	text-align: center;
+
+}
+.imgefor1 img{
+
+	margin-top:65px;
+	margin-bottom: 30px;
+}
+.imgefor1 h2 {
+
+text-transform: uppercase;
+margin-bottom: 25px;
+font-size: 18px;
+font-weight: 700;
+	letter-spacing: 0.2em;
+	color: #353738;
+}
+
+.imgefor1 p {
+max-width: 398px;
+text-align: justify;
+margin :0 auto;
+font-family: Lato;
+font-weight: 400;
+font-size: 16px;
+line-height: 30px;
+color: #848789;
+
+
+	}
+
+.imgefor2 {
+	width:530px;
+	height:200px;
+}
+
+/*Main 1 (Окончания)*/
+.main2 {
+		width:1600px;
+	height: 600px;
+	display: flex;
+}
+.kkclass1 {}
+
+.pp1  {
+
+text-align: center;
+}
+.pp1 img {
+	margin-top:70px;
+	margin-bottom: 35px;
+	text-align: center;
+}
+.pp1 h3 {
+
+	margin-bottom: 25px;
+	text-align: center;
+}
+
+.pp1 p {
+
+	margin :0 auto;
+	text-align: justify;
+	max-width: 397px;
+font-family: Lato;
+font-size: 16px;
+line-height: 29px;
+font-weight: 400;
+color: #848789;
+}
+
+.pp2 {
+	margin-top: 49px;
+	max-width: 530px;
+max-height: 200px;
+}
+.kkclass2 {
+		width:1067px;
+	height: 600px;
+}
+/*Окончания main2*/
+
+
+
+
+/*Начало main3*/
+
+
+
+
+
+.main3 {
+display: flex;
+max-height:600px; 
+
+}
+
+
+.immo1 {
+	max-height: 533px;
+}
+
+
+.immo2 {
+ text-align: center;
+
+}
+.immo2 img{
+margin-top: 50px;
+margin-bottom:25px; 
+}
+
+.immo2 h4{
+margin-bottom: 25px;
+font-family: Lato;
+font-size: 18px;
+font-weight: 700;
+text-transform: uppercase;
+letter-spacing: 0.2em;
+color: #353738;
+}
+
+.immo2 p{
+max-width: 397px;
+text-align: justify;
+margin: 0 auto;
+font-family: Lato;
+font-size: 16px;
+line-height: 29px;
+font-weight: 400;
+color: #848789;
+}
+
+.pott2 img {
+	margin-top: 65px;
+
+}
+
+.immo3 {
+		max-height: 533px;
+}
+
+/*ОКончания main3/*/
+
+
+
+
+
+.texttetx {
+	background: #f7f7f7;
+	height: 469px;
+	text-align: center;
+}
+
+.texttetx img{
+margin-bottom: 40px;
+margin-top:110px;
+}
+
+
+.texttetx h5{
+	margin-bottom: 30px;
+	font-family: Lato;
+font-size: 18px;
+font-weight: 700;
+letter-spacing: 0.1em;
+color: #353738;
+}
+
+.texttetx p{
+	max-width: 1036px;
+	margin: 0 auto;
+	font-family: Lato;
+font-size: 24px;
+line-height: 34px;
+font-weight: 400;
+font-style: italic;
+color: #848789;
+}
+
+
+
+
+
+
+.fotoclas {
+	display: flex;
+	height: 534px;
+	width: 534px;
+}
+
+.prov1 {
+	display: flex;
+}
+
+.prov2{
+	display: flex;
+}
+
+
+
+
+.knopka{
+
+	height: 200px;
+	background: #282f35;
+}
+
+
+
+.potknopka {
+	height:50px ;
+	width: 300px;
+	text-align: center;
+	margin: 0 auto;
+	border: 2px solid #94979a;
+}
+
+
+
+
+
+.potknopka  a{
+
+text-align: center;
+margin-top:110px;
+right: 100%;
+text-decoration: none;
+color: #ffffff;
+font-family: Lato;
+font-size: 14px;
+font-weight: 700;
+text-transform: uppercase;
+letter-spacing: 0.2em;
+
+}
+
+
+	.fot1 {
+		height:470px;
+		background:#fff;
+		text-align: center;
+	}
+.fot1 img{
+	
+	margin-top:110px; 
+	margin-bottom:50px;
+}
+
+.fot1 h6{
+margin-bottom: 43px;
+font-family: Lato;
+font-size: 24px;
+line-height: 34px;
+font-weight: 400;
+font-style: italic;
+color: #848789;
+
+}
+
+	.for_in {
+
+
+	}
+
+#i1{
+width: 400px;
+height: 69px;
+margin-right: 8px;
+opacity: 0.5;
+font-family: Lato;
+font-size: 20px;
+line-height: 24px;
+font-weight: 400;
+font-style: italic;
+color: #929292;
+
+padding-left: 25px;
+}
+
+#i2{
+width: 126px;
+height: 69px;
+background-color: #64c29e;
+text-align: center;
+font-family: Lato;
+font-size: 24px;
+line-height: 24px;
+font-weight: 300;
+color: #ffffff;
+
+}
+
+
+.fot2 {
+	height:250px;
+		background:#f7f7f7 ;
+		display: flex;
+		text-align: center;
+}
+
+
+
+.ff1 p{
+max-width: 236px;
+margin: 100px 250px 0px 250px;
+font-size: 16px;
+line-height: 17px;
+font-weight: 700;
+font-style: italic;
+color: #848789;
+text-align: justify;
+}
+.ff2{
+display: flex;
+	}
+	.ff2 img {
+margin-right: 15px;
+margin-top: 100px;
+
+
+	}
+
+
+		.ff3 {
+ margin-top: 100px;
+margin-left: 320px;
+		display: flex;
+	}
+
+
+
+
+.ff3 p{
+margin-right: 15px;
+font-family: Lato;
+font-size: 13.9px;
+line-height: 17px;
+font-weight: 400;
+font-style: italic;
+color: #848789;
+
+
+}
+
+.ff3 img{
+max-width: 55px;
+max-height: 36px; 
+}
+
